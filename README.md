@@ -140,29 +140,19 @@ The visualization utilities themselves are implemented in:
 
 ### Results
 
-Quantitative results for FDAL and baselines are stored as text logs:
+### Quantization results
 
-- `results_<METHOD>_<DATASET>_main10False.txt`
+![Quantitative results](assets/quant_table.png)
 
-You can convert these into publication-ready tables and figures. We recommend placing:
+### Line Graph Visualization
 
-- **Quantitative tables** (e.g., `.tex` or `.csv`)
-- **Line graph images**
-- **t-SNE plots**
+![<img src="./assets/sql.svg" width="40" />](assets/linegraph.png)
 
-inside the `assets/` folder. The current visualization scripts already save their outputs there.
+### t-SNE visualization
 
-Example expected assets:
+![t-SNE visualization](assets/tsne.png)
 
-- `assets/FDAL_sampling_plot_cifar10.png`
-- `assets/FDAL_sampling_plot_cifar100.png`
-- `assets/tsne/tsne_cycle_*_FDAL.pdf`
-- Any additional figures used in the paper.
-
-You can also include final qualitative and quantitative result figures from the paper in `assets/`.  
-For example, if you have a compiled results figure (e.g., combining line graphs, t-SNE, and tables), place it at `assets/fdal_results.png` and it will be rendered in the README:
-
-![FDAL results](assets/fdal_results.png)
+---
 
 ### Citation
 
