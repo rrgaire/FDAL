@@ -1,0 +1,25 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE/editor
+.vscode/
+.idea/
+.DS_Store
+
+# Checkpoints and logs
+checkpoints/
+*.log
+results_*.txt
+
+
